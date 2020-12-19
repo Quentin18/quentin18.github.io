@@ -1,0 +1,27 @@
+body {
+  padding-top: 5rem;
+}
+
+header {
+  padding: 50px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+th, td {
+  padding: 15px;
+  vertical-align: top;
+}
+
+hr {
+  width: 100%;
+  color: white;
+  height: 1px;
+  background-color: white;
+}
+
+.badge {
+  font-size: small;
+}

@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <title>Quentin Deschamps</title>
+  <meta charset="utf-8">
+
+  <!-- icon -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- bootstrap css file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- fontawesome -->
+  <script defer src="fontawesome-free-5.15.1-web/js/all.js"></script>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Quentin Deschamps</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" data-value="about" href="about.html">À propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-value="projects" href="#">Projets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-value="music" href="music.html">Musique</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Mes projets</h1>
+          <p class="lead text-muted">
+            <p>
+            Voici la liste de mes projets personnels et ceux réalisés dans le cadre de ma formation.
+            Ils sont publiés sur mon profil GitHub. Cliquez sur le nom du projet pour ouvrir sa page.
+            </p>
+            <a href="https://github.com/Quentin18" class="btn btn-primary my-2", target="_blank">Mon GitHub</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <!-- <div class="container"> -->
+      <div class="container-fluid content-row">
+
+        <div class="row">
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/fsmdot" target="_blank">Fsmdot</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Novembre 2020
+                  <p>
+                    <strong>Fsmdot</strong> est une librairie Python permettant de créer des automates finis (<em>Finite-State Machines</em>) qui peuvent être
+                    exportés au format dot. Elle utilise la librarie <code>pygraphviz</code> qui est une interface Python
+                    à l'outil de visualisation de graphes <em>Graphviz</em>.
+                  </p>
+                  <p>
+                    Ce package implémente les automates finis déterministes et non-déterministes.
+                    Il est aussi possible de déterminiser un automate non-déterministe.
+                  </p>
+                </p>
+                <a class="card-link" href="https://pypi.org/project/fsmdot/" target="_blank"><i class="fas fa-external-link-alt"></i> Voir sur PyPI</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/pathfinding.rb" target="_blank">Pathfinding in Ruby</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Août 2020
+                  <p>
+                    Librairie en Ruby permettant la recherche de chemin dans une grille. Elle est basée sur l'algorithme A*.
+                    L'utilisateur peut aussi choisir la fonction pour calculer le coût heuristique, ainsi que choisir les règles sur les déplacements diagonaux autorisés.
+                  </p>
+                  <p>
+                    Cette librarie peut par exemple servir à créer des jeux en Ruby ayant besoin d'une recherche de chemin.
+                  </p>
+                </p>
+                <a class="card-link" href="https://rubygems.org/gems/pathfinding" target="_blank"><i class="fas fa-external-link-alt"></i> Voir sur RubyGems</a>
+                <a class="card-link" href="https://www.rubydoc.info/gems/pathfinding/0.0.1" target="_blank"><i class="fas fa-external-link-alt"></i> Documentation</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/astar-visualizer" target="_blank">A* Visualizer with Ruby</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Août 2020
+                  <p>
+                    Implémentation de l'algorithme de recherche de chemin A* en Ruby et visualisation avec la librarie graphique <code>gosu</code>.
+                  </p>
+                  <p>
+                    Au lancement du programme, une grille s'ouvre. L'utilisateur peut choisir le point de départ, celui d'arrivée, ainsi que les obstacles simplement en cliquant sur la grille.
+                    L'algorithme A* peut ensuite être lancé et l'utilisateur voit le chemin trouvé s'il y en a un ainsi que les noeuds visités.
+                  </p>
+                </p>
+                <a class="card-link" href="https://rubygems.org/gems/astar_visualizer" target="_blank"><i class="fas fa-external-link-alt"></i> Voir sur RubyGems</a>
+                <a class="card-link" href="https://www.rubydoc.info/gems/astar_visualizer/0.0.1" target="_blank"><i class="fas fa-external-link-alt"></i> Documentation</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/pywebdoc" target="_blank">Pywebdoc</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Juillet 2020
+                  <p>
+                    <strong>Pywebdoc</strong> est un outil en CLI permettant d'ouvrir rapidement des pages web de documentation pour le langage Python.
+                    Cet outil peut ouvrir les pages web des librairies standards, ainsi que les pages d'accueil des packages PyPI installés. D'autres fonctionnalités sont disponibles.
+                  </p>
+                </p>
+                <a class="card-link" href="https://pypi.org/project/pywebdoc/" target="_blank"><i class="fas fa-external-link-alt"></i> Voir sur PyPI</a>
+                <a class="card-link" href="https://pywebdoc.readthedocs.io/en/latest/" target="_blank"><i class="fas fa-external-link-alt"></i> Documentation</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/Line-Track-Designer" target="_blank">Line Track Designer</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Juin 2020
+                  <p>
+                    <strong>Line Track Designer</strong> est une librairie Python permettant de créer des circuits pour robot suiveur de ligne.
+                  </p>
+                  <p>
+                    Avec cet outil, il est possible d'éditer, de sauvegarder, de partager, et d'imprimer des circuits.
+                    Une CLI et une API sont utilisables pour créer les circuits à partir de tuiles à associer.
+                  </p>
+                </p>
+                <a class="card-link" href="https://pypi.org/project/line-track-designer/" target="_blank"><i class="fas fa-external-link-alt"></i> Voir sur PyPI</a>
+                <a class="card-link" href="https://line-track-designer.readthedocs.io/en/latest/" target="_blank"><i class="fas fa-external-link-alt"></i> Documentation</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://gitlab.lip6.fr/hilaire/affapy" target="_blank">Affapy</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Mars-Mai 2020
+                  <p>
+                    <strong>Affapy</strong> est une librairie Python d'arithmétique affine multiprécision.
+                    Elle permet d'effectuer des opérations avec des intervalles et des formes affines.
+                    Les arrondis et la précision des calculs effectués sont gérés par la librairie <code>mpmath</code>.
+                  </p>
+                  <p>
+                    <em>Projet réalisé dans le cadre de l'enseignement "Projet d'initiation" et encadré par Thibault Hilaire.</em>
+                  </p>
+                </p>
+                <a class="card-link" href="https://pypi.org/project/affapy/" target="_blank"><i class="fas fa-external-link-alt"></i> Voir sur PyPI</a>
+                <a class="card-link" href="https://affapy.readthedocs.io/en/latest/" target="_blank"><i class="fas fa-external-link-alt"></i> Documentation</a>
+                <a class="card-link" href="pdf/affapy.pdf" target="_blank"><i class="fas fa-external-link-alt"></i> Rapport PDF</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/Sherlock13" target="_blank">Sherlock 13</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Mai 2020
+                  <p>
+                    Création d'un jeu réseau et graphique en C pour 4 joueurs.
+                  </p>
+                  <p>
+                    <em>Projet réalisé dans le cadre de l'enseignement "Systèmes d'exploitation".</em>
+                  </p>
+                </p>
+                <a class="card-link" href="pdf/sherlock13.pdf" target="_blank"><i class="fas fa-external-link-alt"></i> Rapport PDF</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/Synthesizer-MIPS" target="_blank">Synthétiseur MIPS</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Mai 2020
+                  <p>
+                    Réalisation d'un synthétiseur musical en langage assembleur MIPS.
+                  </p>
+                  <p>
+                    <em>Projet réalisé dans le cadre de l'enseignement "Architecture des ordinateurs".</em>
+                  </p>
+                </p>
+                <a class="card-link" href="pdf/synthetiseur.pdf" target="_blank"><i class="fas fa-external-link-alt"></i> Rapport PDF</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/Model-Developpement-Bacteries" target="_blank">Étude d'un modèle de développement des bactéries</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Avril 2020
+                  <p>
+                    Ce projet analyse un modèle de développement des bactéries dans un substrat.
+                    Celui-ci est représenté par un système de deux équations différentielles, où sont étudiées la concentration de bactéries X et la concentration de nourriture S en fonction du temps.
+                  </p>
+                  <p>
+                    Les librairies Python <code>numpy</code>, <code>scipy</code>, <code>pylab</code> et <code>matplotlib</code> ont été utilisées pour étudier le modèle.
+                    Une fenêtre dynamique a été créée où on peut faire varier les paramètres du modèle grâce à des sliders et voir le graphe s'actualiser.
+                  </p>
+                  <p>
+                    <em>Projet réalisé dans le cadre de l'enseignement "Analyse numérique et EDO".</em>
+                  </p>
+                </p>
+                <a class="card-link" href="pdf/bacteries.pdf" target="_blank"><i class="fas fa-external-link-alt"></i> Rapport PDF</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/Mail-Sender-Sorbonne-Universite" target="_blank">Mail Sender Sorbonne Université</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Avril 2020
+                  <p>
+                    <strong>Mail Sender SU</strong> est une application de mail sender en Python pour les étudiants de Sorbonne-Université.
+                  </p>
+                  <p>
+                    Une CLI associée à une GUI permettent d'envoyer des mails rapidement et facilement avec son adresse <i>sorbonne-universite</i> depuis un terminal.
+                  </p>
+                  <p>
+                    CLI réalisée avec <code>click</code>, GUI réalisée avec <code>tkinter</code>.
+                  </p>
+                </p>
+                <a class="card-link" href="https://pypi.org/project/mailSenderSU/" target="_blank"><i class="fas fa-external-link-alt"></i> Voir sur PyPI</a>
+                <a class="card-link" href="https://mail-sender-sorbonne-universite.readthedocs.io/fr/latest/" target="_blank"><i class="fas fa-external-link-alt"></i> Documentation</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/Quoridor-Online" target="_blank">Quoridor</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Avril-Mai 2020
+                  <p>
+                    Reproduction du jeu de stratégie <i>Quoridor</i> en Python avec <code>pygame</code>.
+                    Le jeu se joue en réseau pour 2 à 4 joueurs.
+                  </p>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/ABR" target="_blank">ABR</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Février 2020
+                  <p>
+                    Implémentation des Arbres Binaires de Recherche en C.
+                  </p>
+                  <p>
+                    La variation de la hauteur moyenne et du facteur de déséquilibre moyen d'un arbre binaire de recherche en fonction du nombre de noeuds est étudiée.
+                  </p>
+                  <p>
+                    <em>Travail réalisé dans le cadre de l'enseignement "Algorithmique avancée".</em>
+                  </p>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/DFS" target="_blank">DFS</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Février 2020
+                  <p>
+                    Implémentation de l'algorithme de parcours en profondeur dans un graphe et ses applications en C. Étude de la connexité des graphes.
+                  </p>
+                  <p>
+                    <em>Travail réalisé dans le cadre de l'enseignement "Algorithmique avancée".</em>
+                  </p>
+                </p>
+                <a class="card-link" href="pdf/dfs.pdf" target="_blank"><i class="fas fa-external-link-alt"></i> Rapport PDF</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card h-100">
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://github.com/Quentin18/1000-Bornes" target="_blank">1000 Bornes</a></h4>
+                <p class="card-text">
+                  <i class="far fa-calendar"></i> Août 2019
+                  <p>
+                    Reproduction du célèbre jeu de cartes <i>1000 Bornes</i> en Python avec <code>pygame</code>.
+                    Le jeu se joue en solo contre des IA.
+                  </p>
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-mg">
+          <p>&copy; Quentin Deschamps, 2020</p>
+          <p>
+            <a
+            class="btn btn-primary btn-lg btn-floating"
+            style="background-color: #dd4b39; border: white;"
+            href="mailto:quentindeschamps18@gmail.com"
+            role="button"
+            ><i class="far fa-envelope"></i
+            ></a>
+            <a
+            class="btn btn-primary btn-lg btn-floating"
+            style="background-color: #0082ca; border: white;"
+            href="https://www.linkedin.com/in/quentin-deschamps18/"
+            target="_blank"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+            class="btn btn-primary btn-lg btn-floating"
+            style="background-color: #3b5998; border: white;"
+            href="https://www.facebook.com/quentin.deschamps.1481/"
+            target="_blank"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="btn btn-primary btn-lg btn-floating"
+              style="background-color: #333333; border: white;"
+              href="https://github.com/Quentin18"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              class="btn btn-primary btn-lg btn-floating"
+              style="background-color: #fc6d26; border: white;"
+              href="https://gitlab.lip6.fr/deschampsq"
+              target="_blank"
+              role="button"
+              ><i class="fab fa-gitlab"></i
+            ></a>
+          </p>
+        </div>
+        <div class="col">
+          <p>
+            <a
+            class="btn btn-primary btn-lg btn-floating float-right"
+            href="#"
+            role="button"
+            ><i class="fas fa-arrow-up"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- add js files -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
